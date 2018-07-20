@@ -1,5 +1,5 @@
 class AddGenreToShows < ActiveRecord::Migration
   def change
-    add_column :shows, :genres, :string
-  end 
-end 
+    add_column :shows, :genre, :string
+  end
+end
